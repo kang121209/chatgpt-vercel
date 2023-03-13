@@ -27,6 +27,7 @@ export const post: APIRoute = async ({ request }) => {
     },
     body: JSON.stringify({
       model: "gpt-3.5-turbo",
+      max_tokens:4096,
       messages: [
         {
           role: "user",
