@@ -1,8 +1,0 @@
-{
- "rewrites": [
-   {
-     "source": "/backendx8y3k/(.*)",
-     "destination": "/api/proxy"
-   }
- ]
-}
